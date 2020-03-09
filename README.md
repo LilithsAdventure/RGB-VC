@@ -19,7 +19,9 @@ After that, you are basically done. If you ever want to switch back to your prof
 
 There are some limitations. Currently Profile Switching is not supported, and Memory Dimm LEDS are not working. I plan to have that fixed in a future update. 
 
-This program runs in a hidden mode, so in order to close it, you must use task manager. 
+This program runs in a hidden mode, so in order to close it, you must use task manager.
+
+Updates will be posted here: discord.gg/23YcDaY
 
 Full List of Colors here: 
 

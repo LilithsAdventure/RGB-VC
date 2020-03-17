@@ -1,8 +1,8 @@
 # RGB-VC
-Control Corsair Connected Devices with Alexa / Google Home
+Control Corsair/Raze Connected Devices with Alexa / Google Home
 
 
-Hello! So I created a program called RGB-VC that allwos one to use control their Corsair connected products via Alexa or Google home. This system is comprised of three seperate programs as a whole. Dropbox, Assistant Computer Control, and then RGB-VC 
+Hello! So I created a program called RGB-VC that allwos one to use control their Corsair/Razer connected products via Alexa or Google home. This system is comprised of three seperate programs as a whole. Dropbox, Assistant Computer Control, and then RGB-VC 
 
 
 First thing you will want to do is download RGB-VC and its companioning dll file, and colors.txt. You will Need to put all three in the same directory otherwise the program will not work. 
@@ -16,10 +16,10 @@ In the Append Text IFTTT - MAKE SURE that the file you are writing to is the sam
 
 After that, you are basically done. If you ever want to switch back to your profiles for different effects (this is only for solid colors), just use your key phrase followed by the words "release control" that will release ICUE from the sdk and return control to ICUE Software. 
 
+Finally, Open Config.cfg and change your proper settings to true depending on your Razer/Corsair Devices.
 
-There are some limitations. Currently Profile Switching is not supported, and Memory Dimm LEDS are not working. I plan to have that fixed in a future update. 
+There are some limitations. Currently Profile Switching is not supported. I plan to have that fixed in a future update. 
 
-This program runs in a hidden mode, so in order to close it, you must use task manager.
 
 Updates will be posted here: discord.gg/23YcDaY
 

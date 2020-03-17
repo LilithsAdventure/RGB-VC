@@ -1,5 +1,5 @@
 # RGB-VC
-Control Corsair/Raze Connected Devices with Alexa / Google Home
+Control Corsair/Razer Connected Devices with Alexa / Google Home
 
 
 Hello! So I created a program called RGB-VC that allwos one to use control their Corsair/Razer connected products via Alexa or Google home. This system is comprised of three seperate programs as a whole. Dropbox, Assistant Computer Control, and then RGB-VC 

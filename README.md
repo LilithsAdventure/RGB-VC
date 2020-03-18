@@ -14,11 +14,37 @@ https://imgur.com/a/9Af9iQ2
 
 In the Append Text IFTTT - MAKE SURE that the file you are writing to is the same file that you downloaded "colors.txt" Otherwise the program will NOT work.
 
-After that, you are basically done. If you ever want to switch back to your profiles for different effects (this is only for solid colors), just use your key phrase followed by the words "release control" that will release ICUE from the sdk and return control to ICUE Software. 
-
 Finally, Open Config.cfg and change your proper settings to true depending on your Razer/Corsair Devices.
 
-There are some limitations. Currently Profile Switching is not supported. I plan to have that fixed in a future update. 
+After that, you are basically done. If you ever want to switch back to your profiles for different effects (this is only for solid colors), just use your key phrase followed by the words "release control" that will release ICUE from the sdk and return control to ICUE Software. 
+
+You can also sync different profiles.
+
+To enable Follow these instructions to create an IFTTT:
+https://assistantcomputercontrol.com/applet_helper.php?ac=3&cs=db
+
+Mine ended up looking like this: https://imgur.com/a/zdyl5ky
+
+In order to get the profiles synced you need to create an EXE Program to link the profiles too.
+
+Heres How:
+1. Open an empty text document (I would do this in a seperate folder where you will eventually store all your .exe files)
+
+2. type in '@echo off' (No apostrophes) 
+
+3. Save it as profile.bat (make sure to take it off of text document and put it as all files
+
+4. Run Bat2Exe - https://bat2exe.net/ - (it has all the instructions in the GUI - just make sure the input folder is the folder with the bat file and the output is the same one)
+
+5. Delete all extra files created and just leave in the folder 'profile.bat' and 'profile.exe' (This is in case you need to make backups later)
+
+6. Create as many copies of the profiles.exe as you have ICUE profiles that you want to link and rename the exe to that profile name (I.E for me Spiral Rainbow.exe or Strobing.exe)
+
+7. Finally, go into Icue and link each profile to the respective .exe (its under the main page for when you click on the profile) 
+
+NOTE: If you have any profiles that are NOT linked to an EXE, ICUE will prioritize them and autoswitch to them as soon as the program closes. So link EVERY program to a separate EXE even if you dont plan on opening them via Google Home
+
+There are some limitations. Currently No motherboard software is supported - I will be updating that to be supported within the next week or two - SET ALL MOBO SOFTWARE IN Config.CFG TO false. 
 
 
 Updates will be posted here: discord.gg/23YcDaY

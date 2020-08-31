@@ -46,6 +46,8 @@ NOTE: If you have any profiles that are NOT linked to an EXE, ICUE will prioriti
 
 There are some limitations. Currently No motherboard software is supported - I will be updating that to be supported within the next week or two - SET ALL MOBO SOFTWARE IN Config.CFG TO false. 
 
+## IMPORTANT NOTE FOR CORSAIR MEMORY USERS
+For this application to work with Corsair memory, you have to explicitly allow control in the iCue software. To do this, navigate to "Settings" in iCue, navigate to your memory, and click "Enable full software control". The next time you give RGB-VC a command, your memory color should also change.
 
 Updates will be posted here: discord.gg/23YcDaY
 
